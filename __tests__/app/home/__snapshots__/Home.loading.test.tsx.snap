@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders isLoading 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "rgb(39, 43, 51)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "height": 160,
+          "justifyContent": "center",
+          "width": "100%",
+        },
+        {
+          "paddingTop": 20,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontSize": 24,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      The Rick and Morty API
+    </Text>
+  </View>
+  <RCTScrollView
+    ListFooterComponent={[Function]}
+    data={[]}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.3}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={0.0001}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;

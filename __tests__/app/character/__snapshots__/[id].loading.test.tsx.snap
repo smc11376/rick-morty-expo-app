@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterDetailScreen renders isLoading 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "rgb(60, 62, 68)",
+      "flex": 1,
+    }
+  }
+>
+  <ActivityIndicator
+    color="white"
+    size="large"
+    style={
+      {
+        "justifyContent": "center",
+        "marginVertical": 50,
+      }
+    }
+  />
+</View>
+`;

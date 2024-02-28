@@ -1,0 +1,300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterDetailScreen renders isSuccess 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "flexGrow": 1,
+    }
+  }
+  style={
+    {
+      "backgroundColor": "rgb(60, 62, 68)",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <Image
+      resizeMode="contain"
+      source={
+        {
+          "uri": "https://rickandmortyapi.com/api/character/avatar/400.jpeg",
+        }
+      }
+      style={
+        {
+          "aspectRatio": 1,
+          "width": "100%",
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "padding": 16,
+              "paddingBottom": 0,
+            },
+            {
+              "flexDirection": "row",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "grey",
+              "fontSize": 20,
+            }
+          }
+        >
+          Gender: 
+        </Text>
+        <Text
+          onPress={[Function]}
+          style={
+            {
+              "color": "white",
+              "fontSize": 20,
+            }
+          }
+          testID="info-block-url"
+        >
+          Testing gender
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "padding": 16,
+              "paddingBottom": 0,
+            },
+            {
+              "flexDirection": "row",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "grey",
+              "fontSize": 20,
+            }
+          }
+        >
+          Status: 
+        </Text>
+        <Text
+          onPress={[Function]}
+          style={
+            {
+              "color": "white",
+              "fontSize": 20,
+            }
+          }
+          testID="info-block-url"
+        >
+          Alive
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "padding": 16,
+              "paddingBottom": 0,
+            },
+            {
+              "flexDirection": "row",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "grey",
+              "fontSize": 20,
+            }
+          }
+        >
+          Species: 
+        </Text>
+        <Text
+          onPress={[Function]}
+          style={
+            {
+              "color": "white",
+              "fontSize": 20,
+            }
+          }
+          testID="info-block-url"
+        >
+          Testing species
+        </Text>
+      </View>
+      <View
+        style={
+          [
+            {
+              "padding": 16,
+              "paddingBottom": 0,
+            },
+            {
+              "flexDirection": "row",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "grey",
+              "fontSize": 20,
+            }
+          }
+        >
+          Type: 
+        </Text>
+        <Text
+          onPress={[Function]}
+          style={
+            {
+              "color": "white",
+              "fontSize": 20,
+            }
+          }
+          testID="info-block-url"
+        >
+          Testing types
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        [
+          {
+            "padding": 16,
+            "paddingBottom": 0,
+          },
+          {
+            "flexDirection": "row",
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "grey",
+            "fontSize": 20,
+          }
+        }
+      >
+        Number of episodes: 
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          {
+            "color": "white",
+            "fontSize": 20,
+          }
+        }
+        testID="info-block-url"
+      >
+        22
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "padding": 16,
+            "paddingBottom": 0,
+          },
+          false,
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "grey",
+            "fontSize": 20,
+          }
+        }
+      >
+        Origin: 
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          {
+            "color": "white",
+            "fontSize": 20,
+          }
+        }
+        testID="info-block-url"
+      >
+        Testing name
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "padding": 16,
+            "paddingBottom": 0,
+          },
+          false,
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "grey",
+            "fontSize": 20,
+          }
+        }
+      >
+        Current location: 
+      </Text>
+      <Text
+        onPress={[Function]}
+        style={
+          {
+            "color": "white",
+            "fontSize": 20,
+          }
+        }
+        testID="info-block-url"
+      >
+        Testing name
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;

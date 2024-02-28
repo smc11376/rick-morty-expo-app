@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader renders properly 1`] = `
+<ActivityIndicator
+  color="white"
+  size="large"
+  style={
+    {
+      "justifyContent": "center",
+      "marginVertical": 50,
+    }
+  }
+/>
+`;
